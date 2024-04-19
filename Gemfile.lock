@@ -276,6 +276,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-theme-cayman
 
 BUNDLED WITH
    2.5.9
