@@ -7,4 +7,4 @@ title: Home
 permalink: /home/
 ---
 
-OSAIJSAJDSAOIJ
+This is the landing page. Brief overview of skillset.
