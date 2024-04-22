@@ -6,5 +6,17 @@ layout: home
 title: Home
 permalink: /home/
 ---
+EXT
 
+ttxt
+
+tex 
+text
+ tettewigj ewifjwej
+ ewjfiewjf
+ ewj fiewjf
+ ej ifj ew
+ jf
+ ewij 
+  
 This is the landing page. Brief overview of skillset.
