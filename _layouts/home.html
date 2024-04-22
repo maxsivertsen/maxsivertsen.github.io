@@ -19,12 +19,15 @@
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       {% if site.github.is_project_page %}
-        <a href="{{ https://github.com/maxsivertsen/-maxsivertsen.github.io }}" class="btn">View on GitHub</a>
+        <a href="{{ https://github.com/maxsivertsen/-maxsivertsen.github.io }}" class="btn left">View on GitHub</a>
       {% endif %}
-      {% if site.show_downloads %}
+      
+      <div class="right-buttons">
+        {% if site.show_downloads %}
         <a href="/about" class="btn">About</a>
         <a href="/posts" class="btn">Posts</a>
       {% endif %}
+    </div>
     </header>
 
     <main id="content" class="main-content" role="main">
