@@ -13,21 +13,22 @@
     <link rel="stylesheet" href="{{ '_sass/main.scss' | append: site.github.build_revision | relative_url }}">
     {% include head-custom.html %}
   </head>
+  
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-      {% if site.github.is_project_page %}
-        <a href="{{ https://github.com/maxsivertsen/-maxsivertsen.github.io }}" class="btn left">View on GitHub</a>
-      {% endif %}
+      
+      <a href="/index" class="btn left">Home</a>
       
       <div class="right-buttons">
         {% if site.show_downloads %}
         <a href="/about" class="btn">About</a>
         <a href="/posts" class="btn">Posts</a>
       {% endif %}
+      
     </div>
     </header>
 
