@@ -17,9 +17,9 @@ With this in mind, what are the possible results of applying different normaliza
 [normal dist, right skew, left skew]
 ![Baseline Histograms](max-website/_data/_assets/images/normalization_distributions/histogram_Baseline Comparisons.png)
 test1
-![Baseline Histograms](_assets/images/normalization_distributions/histogram_Baseline Comparisons.png)
+![Baseline Histograms](/_assets/images/normalization_distributions/histogram_Baseline Comparisons.png)
 test2
-[!Baseline Histograms](/home/empathyforgiveness/max_website/max-website/_data/_assets/images/normalization_distributions/histogram_Baseline Comparisons.png)
+![Baseline Histograms](/assets/images/normalization_distributions/histogram_Baseline Comparisons.png)Comparisons.png)
 test3
 
 The first approach is commonly referred to as the min-max normalization and serves to scale the array values to a specific range, in this case 0 and 1.
