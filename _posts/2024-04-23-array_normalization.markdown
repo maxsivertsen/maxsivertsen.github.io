@@ -15,11 +15,17 @@ Let us start with a gray-scale image and what it really is. The image consists o
 
 With this in mind, what are the possible results of applying different normalization techniques to a simple array of values? Using three separate distributions as baseline comparisons, we evaluate both linear and non-linear transformations to our baseline arrays.
 [normal dist, right skew, left skew]
+
 ![Baseline Histograms](max-website/_data/_assets/images/normalization_distributions/histogram_Baseline Comparisons.png)
 test1
+
+
+![abc](/max-website/_data/_assets/images/normalization_distributions/histogram_Baseline Comparisons.png)
+
 ![Baseline Histograms](/_assets/images/normalization_distributions/histogram_Baseline Comparisons.png)
 test2
-![Baseline Histograms](/assets/images/normalization_distributions/histogram_Baseline Comparisons.png)Comparisons.png)
+
+![Baseline Histograms](/assets/images/normalization_distributions/histogram_Baseline Comparisons.png)
 test3
 
 The first approach is commonly referred to as the min-max normalization and serves to scale the array values to a specific range, in this case 0 and 1.
