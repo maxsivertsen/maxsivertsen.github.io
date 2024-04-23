@@ -16,7 +16,7 @@ Let us start with a gray-scale image and what it really is. The image consists o
 With this in mind, what are the possible results of applying different normalization techniques to a simple array of values? Using three separate distributions as baseline comparisons, we evaluate both linear and non-linear transformations to our baseline arrays.
 [normal dist, right skew, left skew]
 
-![Baseline Histograms](max-website/_data/assets/images/normalization_distributions/histogram_Baseline Comparisons.png)
+<!-- ![Baseline Histograms](max-website/_data/assets/images/normalization_distributions/histogram_Baseline Comparisons.png)
 test1
 
 
@@ -29,7 +29,7 @@ test2
 test3
 
 ![zzz](max-website/assets/imgs/histogram_Baseline Comparisons.png)
-test4
+test4 -->
 
 ![zzza](/assets/imgs/histogram_Baseline Comparisons.png)
 test5
