@@ -1,4 +1,18 @@
+---
+layout: post
+title: 'Test post'
+categories: test
 
 
-# TEST
-sodjsdofjodsjfodsjfodsi
+---
+
+# This is a test post
+This first paragraph will be viewable (on account of post.excerpt) on the blog posting page.
+
+
+## This next paragraph
+We only see this paragraph after navigating to the actual specific blog post.
+
+# Useful Jekyll/GitHub Pages Links
+
+- Creating posts: https://michaelsoolee.com/jekyll-post-page/
