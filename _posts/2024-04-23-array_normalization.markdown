@@ -17,7 +17,7 @@ With this in mind, what are the possible results of applying different normaliza
 [normal dist, right skew, left skew]
 ![Baseline Histograms](max-website/_data/_assets/images/normalization_distributions/histogram_Baseline Comparisons.png)
 test1
-[!Baseline Histograms](_assets/images/normalization_distributions/histogram_Baseline Comparisons.png)
+![Baseline Histograms](_assets/images/normalization_distributions/histogram_Baseline Comparisons.png)
 test2
 [!Baseline Histograms](/home/empathyforgiveness/max_website/max-website/_data/_assets/images/normalization_distributions/histogram_Baseline Comparisons.png)
 test3
