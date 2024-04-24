@@ -23,7 +23,7 @@ With this in mind, what are the possible results of applying different normaliza
 
 ### The Equation:
 {% raw %}
-$val_out$ ​= ($val_in​−c$) × ((d−c) / (b−a​)) + a
+$$ $val_out$ ​= ($val_in​−c$) × ((d−c) / (b−a​)) + a $$
 {% endraw %}
 
 
