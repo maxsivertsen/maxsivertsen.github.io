@@ -45,6 +45,12 @@ In a long tailed right-skewed distribution, applying the min-max normalization m
 ## Dynamic World Normalization
 
 ### The DW Equation:
+1) f(x)=(log(array × 0.005 + 1 + 1e6))
+
+2) g(x)= (f(x)−lower\_percentile​) / (upper\_percentile−lower\_percentile)
+
+3) arraydw\_normalized ​= (1) / ( 1 + exp(−g(x) × 2)​ )
+
 1) f(x) = \left(\log\left(\text{array} \times 0.005 + 1 + 1e6\right)\right)
 2) g(x) = \frac{{f(x) - \text{lower\_percentile}}}{{\text{upper\_percentile} - \text{lower\_percentile}}}
 3) \text{array}_{\text{dw\_normalized}} = \frac{1}{{1 + \exp(-g(x) \times 2)}}
