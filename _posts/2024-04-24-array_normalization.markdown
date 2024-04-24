@@ -23,8 +23,9 @@ With this in mind, what are the possible results of applying different normaliza
 
 ### The Equation:
 {% raw %}
-\text{val}_{\text{out}} = \left( \text{val}_{\text{in}} - c \right) \times \left( \frac{b - a}{d - c} \right) + a
+$val_out$ ​= ($val_in​−c$) × ((d−c) / (b−a​)) + a
 {% endraw %}
+
 
 
 ### Variables:
