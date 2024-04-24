@@ -46,6 +46,7 @@ In a long tailed right-skewed distribution, applying the min-max normalization m
 
 ### The DW Equation:
 1) f(x)=(log(array × 0.005 + 1 + 1e6))
+a
 
 2) g(x)= (f(x)−lower\_percentile​) / (upper\_percentile−lower\_percentile)
 
