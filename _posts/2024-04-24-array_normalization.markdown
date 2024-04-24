@@ -45,6 +45,7 @@ In a long tailed right-skewed distribution, applying the min-max normalization m
 ## Dynamic World Normalization
 
 ### The DW Equation:
+{% raw %}
 1) $$ f(x)=(log(array × 0.005 + 1 + 1e6)) $$
 a
 
@@ -55,6 +56,8 @@ a
 1) $$ f(x) = \left(\log\left(\text{array} \times 0.005 + 1 + 1e6\right)\right) $$
 2) $$ g(x) = \frac{{f(x) - \text{lower\_percentile}}}{{\text{upper\_percentile} - \text{lower\_percentile}}} $$
 3) $$ \text{array}_{\text{dw\_normalized}} = \frac{1}{{1 + \exp(-g(x) \times 2)}} $$
+
+{% endraw %}
 
 ### Idea:
 1) First we apply a log transform to the array, this helps compress the dynamic range of values (particularly useful when dealing with wide-ranged, heavy-tailed distributions). We include the epsilon value (1e6) to avoid encountering log(0) and ensure stability.
