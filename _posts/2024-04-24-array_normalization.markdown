@@ -71,9 +71,12 @@ This method will compress the range of array values and make use of all of the a
 
 ### The Equation:
 \[ O(i) = \text{round}\left(\left(\frac{(M \times N) - \text{min\_CDF}}{\text{CDF}(I(i)) - \text{min\_CDF}}\right) \times (L - 1)\right) \]
+$$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $$
 
 ### Idea:
 [Histogram Equalization](https://en.wikipedia.org/wiki/Histogram_equalization)
+![Histogram Equalization Img](assets/imgs/Histogrammeinebnung.png)
+<figcaption>Histogram equalization visualized, credit: By Zefram - Own work, Public Domain, https://commons.wikimedia.org/w/index.php?curid=668605</figcaption>
 
 ### Application:
 Histogram equalization will take an initial distribution of values in an array and reassign them such that each unique value in the array’s range has the same frequency
@@ -85,7 +88,6 @@ The result should be a more uniform distribution of values relative to the initi
 
 ---
 
-![Histogram Equalization](https://commons.wikimedia.org/w/index.php?curid=668605)
 
 ---
 
@@ -115,7 +117,16 @@ For normal distribution, this method can improve the Gaussian characteristics of
 ## Norm2 Normalization
 
 ### The Equation:
-\[ \text{array\_normalized} = \frac{\text{array}}{\sqrt{\sum(\text{array}^2)}} \]
+\begin{verbatim}
+\begin{lstlisting}[language=Python]
+def z_score_normalization(x):
+    mean = np.mean(x)
+    std_dev = np.std(x)
+    normalized_x = (x - mean) / std_dev
+    return normalized_x
+\end{lstlisting}
+\end{verbatim}
+
 
 ### Variables:
 
