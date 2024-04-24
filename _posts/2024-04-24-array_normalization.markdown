@@ -22,18 +22,21 @@ With this in mind, what are the possible results of applying different normaliza
 ## Linear Normalization
 
 ### The Equation:
-\[ X_{\text{normalized}} = \frac{(X - X_{\text{min}}) \times (\text{new_max} - \text{new_min})}{X_{\text{max}} - X_{\text{min}}} + \text{new_min} \]
+{% raw %}
+\text{val}_{\text{out}} = \left( \text{val}_{\text{in}} - c \right) \times \left( \frac{b - a}{d - c} \right) + a
+{% endraw %}
+
 
 ### Variables:
-- `new_max` and `new_min` determine the new range of the array (scaling)
-- `X_max` and `X_min` are the maximum and minimum values of the array
+- `b` and `a` determine the new range of the array (scaling)
+- `d` and `c` are the maximum and minimum values of the array
 - `X` represents each item in the array
 
 ### Idea:
 Linear normalization will rescale an array to predetermined parameters, typically with bounds [0, 1].
 
 ### Application:
-If the array is not already bound at [0, 1], this is the first step. Use the normalization equation above to achieve this. Then, apply the same equation on the recently transformed array, but set the variables `X_min` and `X_max` to the 1st and 99th percentile values. The aim is to reduce the influence of extreme outliers.
+If the array is not already bound at [0, 1], this is the first step. Use the normalization equation above to achieve this. Then, apply the same equation on the recently transformed array, but set the variables `c` and `d` to the 1st and 99th percentile values. The aim is to reduce the influence of extreme outliers.
 
 ### Result:
 In a long tailed right-skewed distribution, applying the min-max normalization method with 1st and 99th percentile values should shift the value distribution towards 0. The reason being, outlier variables above 99th percentile will likely be ‘cut-off’, as in if the value of an array [1:100] at position 100 was 10000, that value would be reassigned a value of 99, thus greatly reducing its pull on the distribution.
@@ -46,16 +49,12 @@ In a long tailed right-skewed distribution, applying the min-max normalization m
 
 ### The DW Equation:
 {% raw %}
+
 1) $$ f(x)=(log(array × 0.005 + 1 + 1e6)) $$
-a
 
 2) $$ g(x)= (f(x)−lower\_percentile​) / (upper\_percentile−lower\_percentile) $$
 
-3) $$ arraydw\_normalized ​= (1) / ( 1 + exp(−g(x) × 2)​ ) $$
-
-1) $$ f(x) = \left(\log\left(\text{array} \times 0.005 + 1 + 1e6\right)\right) $$
-2) $$ g(x) = \frac{{f(x) - \text{lower\_percentile}}}{{\text{upper\_percentile} - \text{lower\_percentile}}} $$
-3) $$ \text{array}_{\text{dw\_normalized}} = \frac{1}{{1 + \exp(-g(x) \times 2)}} $$
+3) $$ array\_dw\_normalized ​= (1) / ( 1 + exp(−g(x) × 2)​ ) $$
 
 {% endraw %}
 
