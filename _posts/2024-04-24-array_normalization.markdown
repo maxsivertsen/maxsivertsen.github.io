@@ -71,8 +71,8 @@ Pass the array into \( f(x) \) and determine the percentiles for \( g(x) \) – 
 ### Result:
 This method will compress the range of array values and make use of all of the array values present. As a simple example, imagine an array with range [0, 100], but with only 20 unique values. If we compress this using DW normalization, we could rescale the image in step 2 to [30, 50]. This would result is a more even distribution across all available pixel values. In turn, that can result in more pronounced differentiations between values.
 
-![Dynamic World 3050](/assets/imgs/histogram_Dynamic Wolrd Normalization [30, 50].png)
-![Dynamic World 3070](/assets/imgs/histogram_Dynamic Wolrd Normalization [30, 70].png)
+![Dynamic World 3050](/assets/imgs/histogram_Dynamic World Normalization [30, 50].png)
+![Dynamic World 3070](/assets/imgs/histogram_Dynamic World Normalization [30, 70].png)
 
 
 ---
@@ -80,12 +80,15 @@ This method will compress the range of array values and make use of all of the a
 ## Histogram Equalization
 
 ### The Equation:
+{% raw %}
+
 \[ O(i) = \text{round}\left(\left(\frac{(M \times N) - \text{min\_CDF}}{\text{CDF}(I(i)) - \text{min\_CDF}}\right) \times (L - 1)\right) \]
 $$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $$
 
+{% endraw %}
 ### Idea:
 [Histogram Equalization](https://en.wikipedia.org/wiki/Histogram_equalization)
-![Histogram Equalization Img](assets/imgs/Histogrammeinebnung.png)
+![Histogram Equalization Img](/assets/imgs/Histogrammeinebnung.png)
 <figcaption>Histogram equalization visualized, credit: By Zefram - Own work, Public Domain, https://commons.wikimedia.org/w/index.php?curid=668605</figcaption>
 
 ### Application:
@@ -104,7 +107,11 @@ The result should be a more uniform distribution of values relative to the initi
 ## Gaussian Normalization (Standardization, Z-score)
 
 ### The Equation:
-\[ z = \frac{(x - \mu)}{\text{sd}} \]
+{% raw %}
+
+$$ \[ z = \frac{(x - \mu)}{\text{sd}} \] $$
+
+{% endraw %}
 
 ### Variables:
 - `x`: array
@@ -115,7 +122,11 @@ The result should be a more uniform distribution of values relative to the initi
 This technique is also known as Z-score normalization. It simply rescales the array by shifting it and standardizing it to have a mean of 0 and sd of 1.
 
 ### Application:
-\[ z = \frac{(\text{array}_X - \mu)}{\text{sd}} \]
+{% raw %}
+
+$$ \[ z = \frac{(\text{array}_X - \mu)}{\text{sd}} \] $$
+
+{% endraw %}
 
 ### Result:
 For normal distribution, this method can improve the Gaussian characteristics of the array’s values. However, in the case of skewed data, this technique will exacerbate the skewed characteristics of the dataset.
@@ -127,6 +138,8 @@ For normal distribution, this method can improve the Gaussian characteristics of
 ## Norm2 Normalization
 
 ### The Equation:
+{% raw %}
+
 \begin{verbatim}
 \begin{lstlisting}[language=Python]
 def z_score_normalization(x):
@@ -137,6 +150,7 @@ def z_score_normalization(x):
 \end{lstlisting}
 \end{verbatim}
 
+{% raw %}
 
 ### Variables:
 
