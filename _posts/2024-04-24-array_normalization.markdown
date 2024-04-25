@@ -82,8 +82,7 @@ This method will compress the range of array values and make use of all of the a
 ### The Equation:
 {% raw %}
 
-\[ O(i) = \text{round}\left(\left(\frac{(M \times N) - \text{min\_CDF}}{\text{CDF}(I(i)) - \text{min\_CDF}}\right) \times (L - 1)\right) \]
-$$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $$
+O(i)=round(CDF(I(i))−min_CDF(M×N)−min_CDF​×(L−1))
 
 {% endraw %}
 ### Idea:
@@ -109,7 +108,7 @@ The result should be a more uniform distribution of values relative to the initi
 ### The Equation:
 {% raw %}
 
-$$ \[ z = \frac{(x - \mu)}{\text{sd}} \] $$
+$$ z=sd(x−μ)​ $$
 
 {% endraw %}
 
@@ -151,8 +150,6 @@ def z_score_normalization(x):
 \end{verbatim}
 
 {% raw %}
-
-### Variables:
 
 ### Idea:
 L2 Normalization will rescale an array using the magnitude of the vector (the magnitude is the denominator in the equation)
