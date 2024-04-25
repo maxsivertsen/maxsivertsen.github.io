@@ -149,7 +149,7 @@ def z_score_normalization(x):
 \end{lstlisting}
 \end{verbatim}
 
-{% raw %}
+{% endraw %}
 
 ### Idea:
 L2 Normalization will rescale an array using the magnitude of the vector (the magnitude is the denominator in the equation)
