@@ -164,3 +164,23 @@ A simple example would be an array [1,3,5]. Simply square each value, then apply
 Because this technique does not actually alter the distribution or proportional distance between values, it only will yield a change in the range of the array (compression of the range).
 
 ![Norm2 Norm](/assets/imgs/histogram_Norm2 Normalization.png)
+
+## Image normalization - visualized
+
+Using the following image we will investigate how the spread of pixel values changes with different normalization methods.
+
+![Color Loon](/assets/imgs/loon_picture_bird.jpeg)
+
+The first step requires converting the image to gray scale. The original image is an RGB image, meaning that is has 3 channels. To simplify the process we select the green channel since it has a better balance between between brightness and contrast than either red or blue.
+
+![Gray Loon](/assets/imgs/loon_picture_gray.jpeg)
+
+Next it is necessary to establish a baseline histogram for comparative purposes regarding the visualization of changes of different normalization methods.
+
+![Gray Loon Histogram](/assets/imgs/baseline_histogram.jpeg)
+
+The following demonstrates changes in the distribution of pixel values after applying the aforementioned normalization (transformation) techniques.
+
+![Normalization Methods](/assets/imgs/Additional-normalizations.jpeg)
+
+![Dynamic World Normalization](/assets/imgs/Dynamic-world-normalization.jpeg)
