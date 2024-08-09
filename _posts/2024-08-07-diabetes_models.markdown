@@ -25,12 +25,16 @@ As for model expectations, given that this is a continuous dataset, if the data 
 
 ### Results
 
-![Diabetes Model Performances](/assets/blog_posts/aug24_diabetes/r2_table.png)
+<p align="center">
+  <img src="/assets/blog_posts/aug24_diabetes/r2_table.png" alt="Diabetes Model Performances">
+</p>
+
 The model performances can be seen in the table. The model names are given on the left, while their R2 values of model performance are given in columns R2, CV R2, and CV Internal R2. The R2 column represents model accuracy for a model built using the training data and evaluated on testing data. The same goes for CV R2, however the models are created using 5-fold cross-validation, allowing for more thorough development. CV Internal R2 is the R2 of a model when averaging each of the folds R2 performances from the pipeline.
 
 It becomes apparent from the R2 values (most reliable) that linear models perform best on this dataset, suggesting a linear relationship in the data is to be had. Additionally, the CV R2 and CV Internal R2 both demonstrate extremely similar R2 values. This is likely indicative of similar model performances converging across multiple folds, pointing again towards the linear relationship of the data. Both random forest and SVR performed relatively poorly. As these models are more adept at detecting non-linear relationships, it suggests that non-linearities may be present, which would further support the belief that the data is linear in nature.
 
 ![Diabetes Graph](/assets/blog_posts/aug24_diabetes/diabetes_model_graph.png)
+
 While the information in the graph is difficult to discern, it is clear that the SVR predictions are more consistently false in the same manner. The remaining visualizations of model performances do not allow for a definite statement to be made beyond a more closely grouped set of predictions. And yes, choosing the right color scheme here was poorly done. Next time though!
 
 
