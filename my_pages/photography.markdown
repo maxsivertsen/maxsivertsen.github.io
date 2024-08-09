@@ -30,7 +30,7 @@ permalink: /photography/
 <h1> Nature </h1>
 
 <div class="image-grid">
-    {% for photo in site.data.photos %}
+    {% for photo in site.data.nature_photos %}
         <div class="grid-item">
             <img src="{{ '/assets/photography/nature/' | append: photo}}" alt="{{ photo }}" loading = "lazy" />
         </div>
@@ -41,7 +41,7 @@ permalink: /photography/
 <h1> Urban </h1>
 
 <div class="image-grid">
-    {% for photo in site.data.photos %}
+    {% for photo in site.data.urban_photos %}
         <div class="grid-item">
             <img src="{{ '/assets/photography/urban/' | append: photo}}" alt="{{ photo }}" loading = "lazy" />
         </div>
