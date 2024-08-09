@@ -13,7 +13,7 @@ permalink: /photography/
 <style>
   .image-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 10px;
   }
   .grid-item {
