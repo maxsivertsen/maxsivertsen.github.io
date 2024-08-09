@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Visualizing normalization techniques of simple arrays
+title: Simple Linear Regression Models
 categories: ml, ai
 ---
 
