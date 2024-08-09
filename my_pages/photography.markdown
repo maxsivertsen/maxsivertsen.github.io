@@ -32,7 +32,7 @@ permalink: /photography/
 <div class="image-grid">
     {% for photo in site.data.photos %}
         <div class="grid-item">
-            <img src="{{ '/assets/photography/nature/' | append: photo}}" alt="{{ photo }}" />
+            <img src="{{ '/assets/photography/nature/' | append: photo}}" alt="{{ photo }}" loading = "lazy" />
         </div>
     {% endfor %}
 </div>
