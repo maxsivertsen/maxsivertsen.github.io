@@ -12,6 +12,65 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" href="{{ '_site/assets/css/stylesheets/custom.css?v=' | append: site.github.build_revision | relative_url }}">
     {% include head-custom.html %}
+
+    <style>
+      .btn-container {
+        display: flex;
+        flex-direction: column; /* Stack child elements vertically */
+        align-items: center; /* Center align the child elements horizontally */
+        padding: 20px; /* Add padding around the container */
+      }
+    
+      .btn-group {
+        display: flex;
+        gap: 10px; /* Space between buttons */
+        margin-bottom: 10px; /* Space between btn-group and lower-btn-group */
+      }
+    
+      .btn {
+        padding: 10px 20px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        background-color: #eee; /* Background color for buttons */
+        text-decoration: none;
+        color: #333; /* Text color */
+        transition: background-color 0.3s ease; /* Smooth color transition on hover */
+      }
+    
+      .btn:hover {
+        background-color: #ddd; /* Background color on hover */
+      }
+    
+      .lower-btn-group {
+        display: flex;
+        flex-direction: column; /* Stack nested buttons vertically */
+        align-items: center; /* Center align nested buttons horizontally */
+        border: 1px solid #ddd; /* Border around the lower button group */
+        border-radius: 4px;
+        background-color: #fff; /* Background color for the lower button group */
+        width: 200px; /* Width of the lower button group container */
+        padding: 10px; /* Add padding inside the container */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
+      }
+    
+      .lower-btn {
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        background-color: #eee; /* Background color for nested buttons */
+        text-decoration: none;
+        color: #333; /* Text color */
+        margin-bottom: 5px; /* Space between nested buttons */
+        transition: background-color 0.3s ease; /* Smooth color transition on hover */
+        width: 100%; /* Make nested buttons fill the width of the container */
+        text-align: center; /* Center text inside nested buttons */
+      }
+    
+      .lower-btn:hover {
+        background-color: #ddd; /* Background color on hover */
+      }
+    </style>
+    
   </head>
   
   <body>
@@ -26,21 +85,20 @@
         <a href="/photography" class="btn">Photography</a>
       </div> -->
 
-      <div class="btn-group">
-        <a href="/" class="btn">Home</a>
-        <a href="/posts" class="btn">Projects</a>
-        <a href="/photography" class="btn">Photography</a>
-        <div class="btn nested-btn-container">
-          <a href="#" class="btn nested-btn-toggle">Categories</a>
-          <div class="nested-btn-content">
-            <a href="/photography/nature" class="nested-btn">Nature</a>
-            <a href="/photography/mountains" class="nested-btn">Mountains</a>
-            <a href="/photography/lakes" class="nested-btn">Lakes</a>
-            <a href="/photography/urban" class="nested-btn">Urban</a>
-          </div>
+      <div class="btn-container">
+        <div class="btn-group">
+          <a href="/" class="btn">Home</a>
+          <a href="/posts" class="btn">Projects</a>
+          <a href="/photography" class="btn">Photography</a>
+        </div>
+      
+        <div class="lower-btn-group">
+          <a href="/photography/nature" class="lower-btn">Nature</a>
+          <a href="/photography/mountains" class="lower-btn">Mountains</a>
+          <a href="/photography/lakes" class="lower-btn">Lakes</a>
+          <a href="/photography/urban" class="lower-btn">Urban</a>
         </div>
       </div>
-
 
     </header>
 
