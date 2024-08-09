@@ -24,8 +24,6 @@ permalink: /photography/
   }
 </style>
 
-/assets/imgs/loon_picture_bird.jpeg
-
 <div class="image-grid">
     {% for photo in site.data.photos %}
         <div class="grid-item">
