@@ -1,7 +1,7 @@
 ---
 layout: photography
 title: Nature, Urban, Winter, Forests, Mountains...
-permalink: /photography/nature
+permalink: /photography/urban
 ---
 
 <style>
@@ -28,13 +28,12 @@ permalink: /photography/nature
   }
 </style>
 
-<h1> Nature </h1>
-
+<h1> Urban </h1>
 
 <div class="image-grid">
-    {% for photo in site.data.nature_photos %}
+    {% for photo in site.data.urban_photos %}
         <div class="grid-item">
-            <img src="{{ '/assets/photography/nature/' | append: photo}}" alt="{{ photo }}" loading = "lazy" />
+            <img src="{{ '/assets/photography/urban/' | append: photo}}" alt="{{ photo }}" loading = "lazy" />
         </div>
     {% endfor %}
 </div>
