@@ -1,6 +1,6 @@
 ---
 layout: photography
-title: Photography
+title: Nature, Urban, Winter, Forests, Mountains...
 permalink: /photography/
 ---
 
@@ -8,6 +8,7 @@ permalink: /photography/
     h1 {
         text-align: center;
     }
+</style>
 
 
 <style>
