@@ -27,6 +27,8 @@ As for model expectations, given that this is a continuous dataset, if the data 
 
 <p align="center">
   <img src="/assets/blog_posts/aug24_diabetes/r2_table.png" alt="Diabetes Model Performances">
+  <br>
+  <small>A table displaying model performance measured by R2.</small>
 </p>
 
 The model performances can be seen in the table. The model names are given on the left, while their R2 values of model performance are given in columns R2, CV R2, and CV Internal R2. The R2 column represents model accuracy for a model built using the training data and evaluated on testing data. The same goes for CV R2, however the models are created using 5-fold cross-validation, allowing for more thorough development. CV Internal R2 is the R2 of a model when averaging each of the folds R2 performances from the pipeline.
@@ -35,6 +37,8 @@ It becomes apparent from the R2 values (most reliable) that linear models perfor
 
 <p align="center">
   <img src="/assets/blog_posts/aug24_diabetes/diabetes_model_graph.png" alt="Diabetes Graph">
+  <br>
+  <small>A graph of the model predictions against the actual values.</small>
 </p>
 
 
