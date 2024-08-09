@@ -15,5 +15,5 @@ for filename in os.listdir(image_dir):
         urban_photos.append(filename)
 
 # Write to photos.yml
-with open(site_dir + '_data/photos.yml', 'w') as file:
+with open(site_dir + '_data/urban_photos.yml', 'w') as file:
     yaml.dump(urban_photos, file, default_flow_style=False)
