@@ -4,7 +4,18 @@ title: Visualizing normalization techniques of simple arrays
 categories: ml, ai
 ---
 
-Neural networks (NN) are powerful tools for making predictions. Before a NN can predict, however, it requires training. For the purpose of an example, we have a NN that predicts dog, cat, or other from a given image. For training, the model is provided with data from which is can learn to detect patterns in the image. This will allow it to predict and classify (hopefully accurately) new images that it has never seen before.
+Neural networks (NN) are powerful tools for making predictions. For models to make the most use of the data they are given, it is important that the data is presented in an optimal format.
+
+<details>
+  <summary>Refresher on the basics</summary>
+
+  I believe in making information accessible to as wide of an audience as is realistic for the given content. If you are just beginning with models and neural networks, maybe this helps, and if you are already a pro - you know this stuff.
+  
+  A neural network can be thought of  For the purpose of an example, we have a NN that predicts dog, cat, or other from a given image. For training, the model is provided with data from which is can learn to detect patterns in the image. This will allow it to predict and classify (hopefully accurately) new images that it has never seen before.
+
+</details>
+
+
 
 ### Concretization example
 One important aspect of training the model is pre-processing. Imagine being a simple NN model for a moment and having to learn to identify cats, dogs, and others. You probably would be able to identify the pictures pretty quickly after seeing a few defining features between cats and dogs, but what happens if those provided images are particularly blurry? Suddenly, you are only seeing the pattern of four legs, a head, and a tail. This could lead to confusion regarding the learning of patterns, potentially to the extent that even other 4-legged creatures like horses would falsely be classified as cat or dog. So what steps can be taken to avoid this problem?
