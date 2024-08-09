@@ -3,6 +3,7 @@ layout: post
 title: Visualizing normalization techniques of simple arrays
 categories: ml, ai
 ---
+## Normalization for Preprocessing in Computer Vision
 
 Neural networks (NN) are powerful tools for making predictions. For models to make the most use of the data they are given, it is important that the data is presented in an optimal format.
 
