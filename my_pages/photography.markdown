@@ -28,7 +28,7 @@ permalink: /photography/
   }
 </style>
 
-Entire Collection
+<h1> Entire Collection </h1>
 
 <div class="image-grid">
     {% for photo in site.data.nature_photos %}
@@ -38,9 +38,6 @@ Entire Collection
     {% endfor %}
 </div>
 
-
-<h1> Urban </h1>
-
 <div class="image-grid">
     {% for photo in site.data.urban_photos %}
         <div class="grid-item">
@@ -48,5 +45,3 @@ Entire Collection
         </div>
     {% endfor %}
 </div>
-
-<h1> Winter </h1>
