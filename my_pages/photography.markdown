@@ -14,7 +14,7 @@ permalink: /photography/
 <style>
   .image-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 10px;
   }
   .grid-item {
@@ -28,7 +28,7 @@ permalink: /photography/
   }
 </style>
 
-<h1> Nature </h1>
+Entire Collection
 
 <div class="image-grid">
     {% for photo in site.data.nature_photos %}
