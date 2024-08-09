@@ -20,11 +20,27 @@
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       
-      <div class="btn">
+<!--      <div class="btn">
         <a href="/" class="btn">Home</a>
         <a href="/posts" class="btn">Projects</a>
         <a href="/photography" class="btn">Photography</a>
+      </div> -->
+
+      <div class="btn-group">
+        <a href="/" class="btn">Home</a>
+        <a href="/posts" class="btn">Projects</a>
+        <a href="/photography" class="btn">Photography</a>
+        <div class="btn nested-btn-container">
+          <a href="#" class="btn nested-btn-toggle">Categories</a>
+          <div class="nested-btn-content">
+            <a href="/photography/nature" class="nested-btn">Nature</a>
+            <a href="/photography/mountains" class="nested-btn">Mountains</a>
+            <a href="/photography/lakes" class="nested-btn">Lakes</a>
+            <a href="/photography/urban" class="nested-btn">Urban</a>
+          </div>
+        </div>
       </div>
+
 
     </header>
 
