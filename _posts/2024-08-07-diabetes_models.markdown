@@ -50,4 +50,4 @@ Thanks for reading!
 
 The code used for this project can be seen and used in full on my GitHub page.
 <br>
-https://github.com/maxsivertsen/diabetes_regression_models/tree/main
+[Diabetes Regression Models on GitHub](https://github.com/maxsivertsen/diabetes_regression_models/tree/main)
