@@ -1,5 +1,5 @@
 ---
-title: Tech
+title: Demonstrations
 layout: posts
 permalink: /posts/
 ---
