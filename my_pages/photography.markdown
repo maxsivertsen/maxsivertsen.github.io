@@ -27,7 +27,7 @@ permalink: /photography/
   }
 </style>
 
-<h1> Mountains </h1>
+<h1> Nature </h1>
 
 <div class="image-grid">
     {% for photo in site.data.photos %}
@@ -38,8 +38,14 @@ permalink: /photography/
 </div>
 
 
-<h1> Forest </h1>
-
-<h1> Germany </h1>
-
 <h1> Urban </h1>
+
+<div class="image-grid">
+    {% for photo in site.data.photos %}
+        <div class="grid-item">
+            <img src="{{ '/assets/photography/urban/' | append: photo}}" alt="{{ photo }}" loading = "lazy" />
+        </div>
+    {% endfor %}
+</div>
+
+<h1> Winter </h1>
