@@ -37,3 +37,11 @@ permalink: /photography/nature
         </div>
     {% endfor %}
 </div>
+
+<div class="image-grid">
+    {% for photo in site.data.urban_photos %}
+        <div class="grid-item">
+            <img src="{{ '/assets/photography/urban/' | append: photo}}" alt="{{ photo }}" loading = "lazy" />
+        </div>
+    {% endfor %}
+</div>
