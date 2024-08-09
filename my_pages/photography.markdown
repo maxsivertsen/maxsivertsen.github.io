@@ -8,29 +8,3 @@ permalink: /photography/
 <h1>Photos</h1>
 
 
-<style>
-  .image-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 10px;
-  }
-  .grid-item {
-    border: 1px solid #ddd;
-    padding: 5px;
-  }
-  .grid-item img {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
-</style>
-
-
-<div class="image-grid">
-
-    {% for photo in assets/imgs %}
-        <div class="grid-item">
-            <img src="{{ '/assets/' | append: photo}}" alt="{{ image }}" />
-        </div>
-    {% endfor %}
-</div>
