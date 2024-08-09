@@ -5,7 +5,6 @@ permalink: /photography/
 ---
 
 
-<h1>Photos</h1>
 
 
 <style>
