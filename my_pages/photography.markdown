@@ -4,7 +4,10 @@ title: Photography
 permalink: /photography/
 ---
 
-
+<style>
+    h1 {
+        text-align: center;
+    }
 
 
 <style>
@@ -24,6 +27,8 @@ permalink: /photography/
   }
 </style>
 
+<h1> Mountains </h1>
+
 <div class="image-grid">
     {% for photo in site.data.photos %}
         <div class="grid-item">
@@ -31,3 +36,10 @@ permalink: /photography/
         </div>
     {% endfor %}
 </div>
+
+
+<h1> Forest </h1>
+
+<h1> Germany </h1>
+
+<h1> Urban </h1>
