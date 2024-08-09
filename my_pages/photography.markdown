@@ -28,8 +28,7 @@ permalink: /photography/
 /assets/imgs/loon_picture_bird.jpeg
 
 <div class="image-grid">
-    {% assign photos = "loon_picture_bird.jpeg" %}
-    {% for photo in photos %}
+    {% for photo in site.data.photos %}
         <div class="grid-item">
             <img src="{{ '/assets/photography/nature/' | append: photo}}" alt="{{ photo }}" />
         </div>
