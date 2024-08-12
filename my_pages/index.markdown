@@ -30,14 +30,14 @@ Thank you for visiting, and I hope you find something here that resonates with y
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
-            color: #333;
+            /*color: #333;  */
             margin: 0;
             padding: 0;
             /* background-color: #f4f4f4; */
         }
         header {
             /* background-color: #007acc; */
-            color: #fff;
+            /*color: #fff; */
             padding: 20px 0;
             text-align: center;
         }
