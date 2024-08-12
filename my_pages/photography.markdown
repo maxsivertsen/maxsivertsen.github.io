@@ -1,6 +1,6 @@
 ---
 layout: photography
-title: Nature, Urban, Winter, Forests, Mountains...
+title: Winter, Spring, Summer, Fall
 permalink: /photography/
 ---
 
