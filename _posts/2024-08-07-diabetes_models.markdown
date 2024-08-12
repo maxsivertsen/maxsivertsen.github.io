@@ -6,12 +6,8 @@ categories: ml, ai
 
 How do different models stack up against one another when performing on a high-dimensional dataset with a continuous target variable?
 
-<details>
-  <summary>An overview of this shallow dive</summary>
-
+<h2> Project Overview </h2>
 A dataset provided by sk-learn is used to evaluate the performance across a handful of introductory machine learning models. The dataset consists of 442 observations and 10 predictor features, and a target variable. K-Fold cross-validation is employed to provide a more robust evaluation of model performance, however it is necessary to note that it does not return a singular model. In situations with smaller datasets, this can test against random variation in the data split (training/testing).
-
-</details>
 
 <h2> Regression Model Types </h2>
 
