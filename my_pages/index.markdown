@@ -26,7 +26,7 @@ If you have any questions, want to discuss a potential collaboration, or are int
 Thank you for visiting, and I hope you find something here that resonates with you! -->
 
 <head>
-    <style>
+    <!-- <style>
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
@@ -67,7 +67,7 @@ Thank you for visiting, and I hope you find something here that resonates with y
             border-radius: 5px;
             text-align: center;
         }
-    </style>
+    </style> -->
 </head>
 <body>
 
