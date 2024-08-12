@@ -1,10 +1,8 @@
 ---
-title: Demonstrations
+title: Projects and demonstrations
 layout: posts
 permalink: /posts/
 ---
-
-<h1>Latest Posts</h1>
 
 <ul>
   {% for post in site.posts %}

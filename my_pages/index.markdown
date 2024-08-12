@@ -3,11 +3,14 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: {{ site.title }}
+title: Welcome to my little website!
 permalink: /
 ---
 
-<!-- <h1> Welcome to My Website! </h1>
+<!--
+{{ site.title }}
+
+ <h1> Welcome to My Website! </h1>
 
 Hi there! I'm thrilled that you’ve stopped by. This site is a window into who I am, the kind of work I do, and how I tackle challenges—both big and small. For me, one of life’s greatest joys is problem-solving. Whether it’s in the realm of work, hobbies, or daily life, I’m passionate about not just finding solutions, but optimizing them. I believe that every problem presents an opportunity for reflection and refinement, and I take this mindset into every project I undertake, whether professional or personal.
 
@@ -26,54 +29,14 @@ If you have any questions, want to discuss a potential collaboration, or are int
 Thank you for visiting, and I hope you find something here that resonates with you! -->
 
 <head>
-    <!-- <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            /*color: #333;  */
-            margin: 0;
-            padding: 0;
-            /* background-color: #f4f4f4; */
-        }
-        header {
-            /* background-color: #007acc; */
-            /*color: #fff; */
-            padding: 20px 0;
-            text-align: center;
-        }
-        .container {
-            max-width: 900px;
-            margin: 20px auto;
-            padding: 0 20px;
-        }
-        h1, h2 {
-            color: #007acc;
-        }
-        p {
-            margin-bottom: 15px;
-        }
-        a {
-            color: #007acc;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        .contact {
-            margin-top: 30px;
-            padding: 15px;
-            background-color: #fff;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            text-align: center;
-        }
-    </style> -->
+
 </head>
 <body>
 
-        <h1>Welcome to My Website!</h1>
+    
 
     <div class="container">
+
         <p>Hey there, and thanks for stopping by :) This site is a window into who I am and the kind of work that I do. For me, one of life’s greatest joys is problem-solving. Whether it’s in the realm of work, hobbies, or daily life, I am passionate about not just finding solutions, but <strong>optimizing</strong> them. I believe that every problem presents an opportunity for reflection and refinement, and I take this mindset into every project I undertake, whether professional or personal.</p>
         
         <h2>My Approach</h2>
