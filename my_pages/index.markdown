@@ -33,10 +33,10 @@ Thank you for visiting, and I hope you find something here that resonates with y
             color: #333;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            /* background-color: #f4f4f4; */
         }
         header {
-            background-color: #007acc;
+            /* background-color: #007acc; */
             color: #fff;
             padding: 20px 0;
             text-align: center;
