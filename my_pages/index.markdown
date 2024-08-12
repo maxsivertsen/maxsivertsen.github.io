@@ -95,4 +95,3 @@ Thank you for visiting, and I hope you find something here that resonates with y
     </div>
 
 </body>
-</html>
