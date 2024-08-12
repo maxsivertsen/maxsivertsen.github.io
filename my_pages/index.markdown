@@ -82,12 +82,8 @@ Thank you for visiting, and I hope you find something here that resonates with y
         <h2>Explore My Work</h2>
         <p>This website is not just a portfolio; it is a glimpse into my journey with machine learning, data visualization, and the many concepts that I have explored along the way. Here, you can find insights into how I handle projects, from the initial brainstorming stages to the final result. Each entry showcases techniques that I have employed and the lessons learned along the way, offering a clear picture of how I approach complex problems with creativity and dedication.</p>
 
-        <div class="contact">
-            <p>If you have any questions, want to discuss a potential collaboration, or are interested in my work from a professional perspective, I’d love to hear from you.</p>
-            <p>Feel free to reach out to me at:</p>
-            <p><a href="mailto:maximussivertsen@gmail.com">maximussivertsen@gmail.com</a></p>
-            <p>Let’s see how we can solve problems together.</p>
-        </div>
+
+        Feel free to reach out to me: <a href="mailto:maximussivertsen@gmail.com">maximussivertsen@gmail.com</a>
 
         <footer style="text-align: center; margin-top: 40px;">
             <p>Thank you for visiting, and I hope you find something here that resonates with you!</p>
