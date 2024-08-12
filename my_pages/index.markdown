@@ -25,12 +25,7 @@ If you have any questions, want to discuss a potential collaboration, or are int
 
 Thank you for visiting, and I hope you find something here that resonates with you! -->
 
-<!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>John Smith - Portfolio</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -76,15 +71,13 @@ Thank you for visiting, and I hope you find something here that resonates with y
 </head>
 <body>
 
-    <header>
         <h1>Welcome to My Website!</h1>
-    </header>
 
     <div class="container">
         <p>Hi there! I'm thrilled that you’ve stopped by. This site is a window into who I am, the kind of work I do, and how I tackle challenges—both big and small. For me, one of life’s greatest joys is problem-solving. Whether it’s in the realm of work, hobbies, or daily life, I’m passionate about not just finding solutions, but <strong>optimizing</strong> them. I believe that every problem presents an opportunity for reflection and refinement, and I take this mindset into every project I undertake, whether professional or personal.</p>
         
         <h2>My Approach</h2>
-        <p>In everything I do, I strive for <strong>excellence</strong>, embrace <strong>collaboration</strong>, and infuse my work with passionate precision. My approach to problem-solving is grounded in honesty, transparency, and a genuine, easy-going demeanor. At the core of my work is a belief that, at the end of the day, we’re all human. <strong>Empathy</strong> is key to how I navigate collaborative efforts—understanding and valuing the perspectives of others makes for stronger, more innovative solutions.</p>
+        <p>In everything I do, I strive for <strong>excellence</strong>, embrace <strong>collaboration</strong>, and infuse my work with passionate precision. My approach to problem-solving is grounded in honesty, transparency, and a genuine, easy-going demeanor. At the core of my work is a belief that, at the end of the day, we’re all human. Empathy is key to how I navigate collaborative efforts—understanding and valuing the perspectives of others makes for stronger, more innovative solutions.</p>
 
         <h2>Explore My Work</h2>
         <p>This website isn’t just a portfolio; it’s a glimpse into my journey with machine learning, data visualization, and the many fascinating concepts I’ve explored along the way. Here, you’ll find insights into how I handle projects, from the initial brainstorming stages to the final polished product. Each entry showcases the techniques I’ve employed and the lessons I’ve learned, offering a clear picture of how I approach complex problems with creativity and rigor.</p>
