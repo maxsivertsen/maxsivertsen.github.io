@@ -1,5 +1,5 @@
 ---
-title: Projects and demonstrations
+title: Projects, Ideas, and Demonstrations
 layout: posts
 permalink: /posts/
 ---
