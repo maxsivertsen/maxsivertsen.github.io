@@ -121,7 +121,18 @@ df = xls.parse(0, skiprows=[0,1], usecols=[0,1], names=['Height', 'Weight])
 </code></pre>
 
 
+So far the process of importing local files has been reviewed, next, this topic of external importing will be discussed.
 
+<h2> Importing web data </h2>
+
+This requires coding (python) and is better for scaling and reproducibility. First HTTP requests (GET requests) are made, then using modules like beautifulsoup and urllib can be used to parse and download webdata.
+
+Starting with the urllib module, the submodule urllib.request can be accessed to import the urlretrieve() function.
+
+<pre><code>
+url = https://www.demo-site.com
+urlretrieve(url, 'dataset-demo.csv')
+</code></pre>
 
 
 

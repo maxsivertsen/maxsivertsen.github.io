@@ -1,3 +1,9 @@
+---
+layout: post
+title: Relational Databases
+categories: data science, data engineering
+---
+
 <h1> Relational Databases </h1>
 
 A company running an e-commerce store needs to track various aspects like customers, orders, products, and reviews. To manage and connect this information, the company uses a Database Management System (DBMS). Popular DBMS examples include MySQL, Microsoft SQL Server, PostgreSQL, and SQLite.

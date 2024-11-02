@@ -1,0 +1,59 @@
+---
+layout: post
+title: Journal
+categories: data science, data engineering
+---
+
+<h1> Forgive me for the formatting </h1>
+
+Before we begin, I want to apologize for the formatting, I am far from being an expert at webdev.
+
+Hi, my name is Max and I am one of millions trying to find their way into programming, deep learning, and data science. The purpose of this journal is to help guide myself along my journey. Because I don't believe in egoisto approaches, I will do my best to skip the parts where I talk about myself and stick to the pure content of importance. With that in mind, let's begin.
+
+The goal is to follow the <a href='https://course.fast.ai/'>fastai course</a>. A background on concepts discussed in the course is present in part, however much is new. With around 70-80 hours a week invested into the course, I hope to finish it in under a month.
+
+<h2>Day 1 (01.11.2024) - Chapter 1, Intro</h2>
+
+I will try and follow a structure in the daily entires.
+
+Topic Overview:
+Struggles:
+Main Takeaway:
+Review:
+
+<b>Topic Overview</b>
+
+The lesson is a standard introductory lecture. The creators provide reason to study their course, provide credentials, offer reason to believe you are capable of manifesting projects using their methods, and demonstrate success stories. After this, they establish the environments that they will be working in, before creating a simple _model_ that discerns between user-uploaded cat and dog photos. The model is then used as a segue into the topic of machine learning (making predictions) and neural networks (making predictions using lots of simple maths - addition/multiplication). Before ending the lecture, some time is spent discussing crucial machine learning concepts, namely the 3 dataset splits (train, validation, test).
+
+<b>Struggles</b>
+
+The greatest struggle here is orientation. The idea of pushing past the desire of wanting to understand every single method, class, and coding hack is difficult for those of us who want to know the precise dimensions of every brick a the wall. Push through, ignore this desire.
+
+<b>Main Takeaway</b>
+
+Nothing was particularly enticing in this lecture, as most concepts are already known to me. If one aspect was to be labeled intriging, it would definitely be the conciseness with which the classifier (model) was coded. With prior experiences already had in PyTorch creating CNNs, making such simple code classifiers feels like cheating.
+
+<b>Review</b>
+
+Overall the impression is given that the course creator (Jeremy) has a very good approach to education. There seems to be good structure, plenty of content but offered in a logical and sequential manner. The section discussing the layers and characteristics that a model is detecting was particularly useful in helping to consolidate the innerworkings of the model.
+
+
+<h2>Day 2 (02.11.2024) - Section 2, Production</h2>
+
+Topic Overview:
+Struggles:
+Main Takeaway:
+Review:
+
+
+<b>Topic Overview</b>
+
+
+
+<b>Struggles</b>
+
+
+<b>Main Takeaway</b>
+
+
+<b>Review</b>

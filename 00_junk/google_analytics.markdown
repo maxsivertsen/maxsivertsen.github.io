@@ -16,4 +16,4 @@ Using google analytics requires an account. It is best practice to have one acco
 
 <h3> Implementing tags </h3>
 
-At the heart of event capturing lie tags. These are snippets of code that allow our platform to record events. Using the recommended 'Tag Manager' enables the easy central oversight, implementation, and management of tags from the 'Tag Manager' in the accounts management overview. This requires the inclusion of two instances of code in the website/application, one in the head, and the other in the body.
+At the heart of event capturing lie tags. These are snippets of JavaScript that allow our platform to record events. Using the recommended 'Tag Manager' enables the easy central oversight, implementation, and management of tags from the 'Tag Manager' in the accounts management overview. This requires the inclusion of two instances of code in the website/application, one in the head, and the other in the body.
