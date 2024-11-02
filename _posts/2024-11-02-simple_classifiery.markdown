@@ -13,9 +13,9 @@ Many optimizations could be made, however the purpose of this app is simply to h
 Summary
 
 <iframe
-    src="https://totalllmnoob-forest_classifier.hf.space"
-    width="100%"
-    height="600"
-    frameborder="0">
-</iframe>
+	src="https://totalllmnoob-forest-classifier.hf.space"
+	frameborder="0"
+	width="850"
+	height="450"
+></iframe>
 
