@@ -15,7 +15,7 @@ Summary
 <iframe
 	src="https://totalllmnoob-forest-classifier.hf.space"
 	frameborder="0"
-	width="850"
+	width="100%"
 	height="450"
 ></iframe>
 
