@@ -11,11 +11,10 @@ Many optimizations could be made, however the purpose of this app is simply to h
 
 
 Summary
-
-<iframe
-	src="https://totalllmnoob-forest-classifier.hf.space"
-	frameborder="0"
-	width="100%"
-	height="450"
-></iframe>
-
+<div style="max-width: 850px; margin: auto;">
+    <iframe
+        src="https://totalllmnoob-forest-classifier.hf.space"
+        frameborder="0"
+        style="width: 100%; height: 450px; border: none;"
+    ></iframe>
+</div>
